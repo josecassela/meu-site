@@ -1,0 +1,69 @@
+body{
+    background: white;
+   height: 100px;
+    color: white;
+}
+
+.sidebar{
+width: 150px;
+height: 100vh;
+position: absolute;
+background: navy;
+}
+
+.sidebar a:not(.active){
+    color: white;
+}
+
+.sidebar a{
+    transition: all is ease-in-out;
+}
+
+.sidebar a span{
+    font-weight: 100;
+}
+
+
+
+.sidebar a.active{
+    color:black;
+}
+
+.sidebar a, .sidebar a.active, .sidebar a:hover, .sidebar .logo {
+background: navy;
+text-align: center;
+border: 0px;
+}
+
+.sidebar .logo{
+    border-bottom: 6PX solid white;
+}
+
+.content-site{
+  margin-left: 170px;
+
+}
+
+.jumbotron{
+    background:blue;
+}
+
+
+.title-with-border{
+    border-bottom: 1px solid aqua;
+    margin-bottom: 40px;
+}
+
+.my-location{
+    color: aqua;
+    font-weight: 300;
+}
+
+.sub-title-about-me{
+    font-weight: bold;
+    color: aqua;
+    text-decoration: underline;
+    margin-top: 12px;
+}
+
+
