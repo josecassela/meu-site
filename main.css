@@ -2,17 +2,19 @@ body{
     background: white;
    height: 100px;
     color: black;
+    
 }
 
 .sidebar{
-width: 150px;
-height: 50vh;
+
+    height: 50vh;
 position: absolute;
 background: navy;
+
 }
 
 .sidebar a:not(.active){
-    color: white;
+    color: navy;
 }
 
 .sidebar a{
@@ -21,6 +23,7 @@ background: navy;
 
 .sidebar a span{
     font-weight: 100;
+    color: white;
 }
 
 
@@ -65,5 +68,6 @@ border: 0px;
     text-decoration: underline;
     margin-top: 12px;
 }
+
 
 
